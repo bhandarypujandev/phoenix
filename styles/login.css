@@ -12,11 +12,6 @@
 
 body {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background: linear-gradient(135deg, #0c40a0, #cfdef3); */
 }
 
 .input-group {
@@ -38,3 +33,4 @@ body {
   outline: none;
   transition: border 0.3s ease;
 }
+

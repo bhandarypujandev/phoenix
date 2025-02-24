@@ -12,6 +12,11 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .input-group {
@@ -34,3 +39,18 @@ body {
   transition: border 0.3s ease;
 }
 
+.border-1{
+  border:1px solid black;
+}
+
+.login-container{
+  height:600px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-content{
+  flex:1;
+}

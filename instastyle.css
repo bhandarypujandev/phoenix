@@ -1,0 +1,76 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left-container{
+    border: 1px solid black;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.insta-icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.left-container div{
+    margin: 10px;
+}
+
+.left-container div:hover{
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.right-container{
+    border: 1px solid black;
+
+}
+.main-container{
+    border: 1px solid black;
+    flex: 10;
+
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.story-image{
+    height:60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+
+.story-text{
+    font-size: 10px;
+}
+
+.stories{
+    display: flex;
+    margin-top: 25px;
+    border: 1px solid red;
+
+}

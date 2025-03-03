@@ -46,6 +46,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .story {
@@ -90,6 +92,8 @@ body {
   justify-content: start;
   max-width: 650px;
   min-height: 80px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .content {

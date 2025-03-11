@@ -22,13 +22,17 @@
     </style>
   </head>
   <body>
-    <h1> Click Counter with Timer</h1>
+    <h1>Click Counter with Timer</h1>
     <button onclick="increaseCount()">Click Me!</button>
     <p>Clicks: <span id="count">0</span></p>
     <p id="timerText"></p>
 
     <script>
-      
+      let count = 0;
+      const increaseCount = () => {
+        count = count + 1;
+        document.getElementById('count').textContent=count;
+      };
     </script>
   </body>
 </html>

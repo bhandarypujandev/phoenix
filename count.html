@@ -29,9 +29,23 @@
 
     <script>
       let count = 0;
+      let startDate = null;
       const increaseCount = () => {
+        if (count === 0) {
+          startDate = Date.now();
+          setInterval(() => {
+            document.getElementById("timerText").textContent =
+              (Date.now() - startDate)/1000;
+          }, 10);
+        }
         count = count + 1;
-        document.getElementById('count').textContent=count;
+        document.getElementById("count").textContent = count;
+
+        if (count === 10) {
+          let lastDate = Date.now();
+          let diff = (lastDate - startDate) / 1000;
+          alert("Time taken for 10 clciks =" + diff);
+        }
       };
     </script>
   </body>
